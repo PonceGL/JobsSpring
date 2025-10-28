@@ -6,8 +6,16 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Home Page</h1>
-        <p th:text="${message}">hello</p>
-        <p>Hoy es: [[${date}]]</p>
+        <h1>Jobs Finder</h1>
+        <div>
+<!--            <p th:text="${name}">name</p>-->
+            <p>Nombre del puesto: [[${name}]]</p>
+            <div>
+                <p>Fecha de publicación: [[${date}]]</p>
+                <p>Se ecnuentra disponible: [[${available}]]</p>
+            </div>
+            <p>Oferta: [[${salary}]]</p>
+        </div>
+
     </body>
 </html>
